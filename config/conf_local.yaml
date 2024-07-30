@@ -1,0 +1,9 @@
+LOGGER:
+  PRODUCTION: "production"
+  DEVELOPMENT: "development"
+
+SCANNING_OPTS:
+  PATH: "scanning/ueba.csv"
+  FORMAT: ","
+
+THIS_APP_URL: "localhost:3003"

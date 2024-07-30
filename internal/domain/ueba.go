@@ -1,0 +1,54 @@
+package domain
+
+type UEBAS struct {
+	SequenceNumber            string
+	ID                        string
+	UID                       string
+	Domain                    string
+	CN                        string
+	Department                string
+	Title                     string
+	Who                       string
+	LogonCount                string
+	NumLogons7                string
+	NumShare7                 string
+	NumFile7                  string
+	NumAd7                    string
+	NumN7                     string
+	NumLogons14               string
+	NumShare14                string
+	NumFile14                 string
+	NumAd14                   string
+	NumN14                    string
+	NumLogons30               string
+	NumShare30                string
+	NumFile30                 string
+	NumAd30                   string
+	NumN30                    string
+	NumLogons150              string
+	NumShare150               string
+	NumFile150                string
+	NumAd150                  string
+	NumN150                   string
+	NumLogons365              string
+	NumShare365               string
+	NumFile365                string
+	NumAd365                  string
+	NumN365                   string
+	HasUserPrincipalName      string
+	HasMail                   string
+	HasPhone                  string
+	FlagDisabled              string
+	FlagLockout               string
+	FlagPasswordNotRequired   string
+	FlagPasswordCantChange    string
+	FlagDontExpirePassword    string
+	OwnedFiles                string
+	NumMailboxes              string
+	NumMemberOfGroups         string
+	NumMemberOfIndirectGroups string
+	MemberOfIndirectGroupsIDs string
+	MemberOfGroupsIDs         string
+	IsAdmin                   string
+	IsService                 string
+}
